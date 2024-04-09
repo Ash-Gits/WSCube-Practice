@@ -1,0 +1,35 @@
+p {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.click-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: blue;
+    padding: 12px 12px;
+    border-radius: 20px;
+    color: aliceblue;
+    transition: background-color 2s;
+    transition: color 0.15s;
+}
+
+.click-button:hover {
+    background-color: yellow;
+    color:brown;
+}
+
+
+
+.tata-1 {
+ border-radius: 100px;   
+ width: 30%;
+ box-shadow: 5px 10px 15px rgba(0,0,200,10) ;
+}
+.image-intro {
+ margin-top: 20px;
+ margin-bottom: 20;
+
+}

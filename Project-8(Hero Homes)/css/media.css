@@ -1,0 +1,17 @@
+@media only screen and(max-width:1110px)
+{
+    .header .nav > ul >li{
+        font-size: 0.8vw;
+    }
+}
+
+@media only screen and(max-width:992px)
+{
+    
+}
+
+@media only screen and(max-width:525px){
+    .nav{
+        display: none;
+    }
+}

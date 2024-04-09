@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style type="text/css">
+*{
+    margin:0px;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+
+.header{
+    display:flex;
+    background: yellowgreen;
+    padding:15px 40px;
+    justify-content: space-between;
+
+}
+
+.logo{
+    font-size: 26px;
+    
+}
+.header > ul{
+    display:flex;
+    /* padding:0 20px; */
+
+}
+.header > ul> li{
+    padding: 0 20px;
+    font-size: 20px;
+}
+.innermenu{
+    position:absolute;
+    font-size: 25px;
+    padding:5px 10px;
+    background: magenta;
+    display:none;
+
+}
+ </style>
+
+
+</head>
+<body>
+    <div class="header">
+        <a href="#" class="logo">LOGO</a>
+   <ul>
+    <li><a href="#">Home</a>
+     <ul class="innermenu">
+        <li><a href="#">homeinner1</a></li>
+        <li><a href="#">homeinner2</a></li>
+        <li><a href="#">homeinner3</a></li>
+        <li><a href="#">homeinner4</a></li>
+     </ul>   
+    </li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Gallery</a></li>
+   </ul>
+    </div>
+    
+</body>
+</html>
